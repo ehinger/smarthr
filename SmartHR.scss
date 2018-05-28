@@ -1,0 +1,190 @@
+/****************************************************
+Page crossover
+****************************************************/
+
+html, body, div {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  border: 0; 
+  font-size: 16px;
+}
+
+$darkBlue: #1b1464 !global;
+
+/****************************************************
+Text
+****************************************************/
+
+.background {
+	position: absolute;
+	width: 100vw;
+	margin: 0;
+	height: auto;
+	background: $darkBlue;
+	z-index: -1;
+		p {
+		position: relative;
+		font-kerning: normal;
+		font-size: 2.5rem;
+		line-height: 1.6;
+		padding: 150px 200px 0;
+		color: #ffffff;
+		font-family: 'Panton-SemiBold';
+		src: url('webfonts/369051_E_0.eot');
+		src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
+	}
+}
+
+h1 {
+	width: 5px;
+	font-size: 5rem;
+	margin: 100px 0 0px;
+	-webkit-transform: translate3d(20vw, 0, 0);
+	transform: translate3d(20vw, 0, 0);
+	color: $darkBlue;
+	font-family: 'Panton-ExtraBold';
+	src: url('webfonts/369051_4_0.eot');
+	src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
+}
+
+h2 {
+	width: 400px;
+	font-size: 3rem;
+	margin: 0;
+	color: $darkBlue;
+	-webkit-transform: translate3d(35vw, 0, 0);
+	transform: translate3d(35vw, 0, 0);
+	font-family: 'Panton-SemiBold';
+	src: url('webfonts/369051_E_0.eot');
+	src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
+}
+
+/***************************************************
+Navigation
+****************************************************/
+
+.sandwichIcon {
+	top: 120px;
+	right: 0;
+	position: fixed;
+	width: 0;
+	height: 60px;
+	margin: 0;
+	z-index: 2;
+}
+
+.barOne {
+	width: 100%;
+	height: 12px;
+	margin: 0;
+	background-color: $darkBlue;
+}
+
+.barTwo {
+	width: 100%;
+	height: 12px;
+	margin: 12px 0;
+	background-color: $darkBlue;
+}
+
+.barThree {
+	width: 100%;
+	height: 12px;
+	margin: 0;
+	background-color: $darkBlue;
+}
+
+.menuBar {
+	width: 0;
+	height: 200px;
+	margin: 0;
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    .menuBar {
+		width: 100vw;
+	}
+	.sandwichIcon {
+		width: 100px;
+	}
+}
+
+.returnToTop {
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	position: fixed;
+	-webkit-transform: translate3d(85vw, 75vh, 0);
+	transform: translate3d(85vw, 75vh, 0);
+}
+
+@media only screen and (max-width: 450px) {
+    .returnToTop {
+		-webkit-transform: translate3d(85vw, 85vh, 0);
+		transform: translate3d(85vw, 85vh, 0);
+    }
+}
+
+.menuTransition {
+	-webkit-transform: translate3d(0, 80vh, 0);
+	transform: translate3d(0, 80vh, 0);
+}
+
+.closeTransition {
+	height: 100vh;
+}
+
+.navigationClose {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	margin: 0;
+	right: 0;
+	top: -80vh;
+	background: #ffffff;
+}
+
+.lineL {
+	width: 15px;
+	height: 150px;
+	position: fixed;
+	background: #000000;
+	margin: 25px 100px;
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.lineR {
+	width: 15px;
+	height: 150px;
+	position: fixed;
+	background: #000000;
+	margin: 25px 100px;
+	transform: rotate3d(0, 0, 1, 315deg);
+}
+
+/****************************************************
+Graphic Imagery
+****************************************************/
+
+.SVGImage {
+	margin: 0;
+	height: 10vh;
+	width: 100vw;
+}
+
+@media only screen and (min-width: 800px) {
+    .SVGImage {
+		height: 35vh;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+    .SVGImage {
+		height: 50vh;
+	}
+}
