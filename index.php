@@ -38,8 +38,9 @@
 	<h1>SmartHR</h1>
 	<h2>Raylee Marfell</h2>
 
-
-</div>
+	<div class="SVGImage">
+		<img src="SmartHR_header_image.svg" alt="A flourish of blues">
+	</div>
 <div class="background">
 	<p>Raylee has over 25 years of experience as a Human Resources practitioner, organisational and conflict coach, workplace investigator and facilitator. Raylee’s extensive experience working as a senior practitioner in Employment Relations and Human Resources within the public sector has given her the ability to deeply understand the dynamics of workplace relationships and causes of conflict that can occur in that setting.<br><br>
 
