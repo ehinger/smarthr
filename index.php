@@ -6,10 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="SmartHR.css">
 </head>
 <body>
-<?php
-	error_reporting(E_ALL); 
-	ini_set('display_errors', 1);
-?>
 <!-- Navigation -->
 
 	<div class="sandwichIcon">
