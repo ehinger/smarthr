@@ -51,7 +51,7 @@ h1 {
 
 h2 {
 	width: 400px;
-	font-size: 3rem;
+	font-size: 2rem;
 	margin: 0;
 	color: $darkBlue;
 	-webkit-transform: translate3d(35vw, 0, 0);
@@ -107,11 +107,16 @@ Navigation
 
 .links {
     list-style-type: none;
-    margin: 100px 0;
+    margin: 40px 200px;
+    padding: 0;
+    float: right;
     position: relative;
 }
 
 .linkOne, .linkTwo, .linkThree {
+	float: left;
+	margin: 0 50px;
+	font-size: 2rem;
 	font-family: 'Panton-SemiBold';
 	src: url('webfonts/369051_E_0.eot');
 	src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
