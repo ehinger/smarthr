@@ -83,7 +83,7 @@ Navigation
   background-color: #1b1464; }
 
 .menuBar {
-  width: 0;
+  width: 100vw;
   height: 200px;
   margin: 0;
   background: #ffffff;
