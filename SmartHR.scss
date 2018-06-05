@@ -97,12 +97,21 @@ Navigation
 }
 
 .menuBar {
-	width: 100vw;
+	width: 0vw;
 	height: 200px;
 	margin: 0;
 	background: #ffffff;
 	position: fixed;
 	top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .menuBar {
+		width: 100vw;
+	}
+	.sandwichIcon {
+		width: 100px;
+	}
 }
 
 .links {
@@ -120,15 +129,6 @@ Navigation
 	font-family: 'Panton-SemiBold';
 	src: url('webfonts/369051_E_0.eot');
 	src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
-}
-
-@media only screen and (max-width: 400px) {
-    .menuBar {
-		width: 100vw;
-	}
-	.sandwichIcon {
-		width: 100px;
-	}
 }
 
 .returnToTop {

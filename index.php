@@ -3,6 +3,7 @@
 <head>
 	<title>SmartHR - Human Resources Consulting</title>
 	<meta name="description=" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="SmartHR.css">
 </head>
 <body>
