@@ -7,8 +7,15 @@ html, body, div {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 16px;
-  overflow-x: hidden; }
+  font-size: 16px; }
+
+#wrapper {
+  overflow-x: hidden;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: auto; }
 
 /****************************************************
 Text
@@ -16,7 +23,8 @@ Text
 .background {
   position: relative;
   width: 100vw;
-  margin: -50px 0 0;
+  margin: -50px 0;
+  padding: 0 0 50px 0;
   height: auto;
   background: #1b1464;
   z-index: -1; }
@@ -137,7 +145,6 @@ Navigation
   padding: 0;
   float: right;
   position: relative;
-  width: 100vw;
   z-index: 3; }
 
 .linkOne, .linkTwo, .linkThree {
@@ -156,6 +163,7 @@ Navigation
     padding: 0;
     float: none;
     position: fixed;
+    width: 100vw;
     top: 50%;
     z-index: 3;
     display: none; }
@@ -176,6 +184,11 @@ Navigation
   right: 50px;
   bottom: 50px; }
 
+@media only screen and (max-width: 600px) {
+  .returnToTop {
+    width: 50px;
+    right: 20px;
+    bottom: 20px; } }
 .menuTransition {
   -webkit-transform: translate3d(0, 80vh, 0);
   transform: translate3d(0, 80vh, 0); }

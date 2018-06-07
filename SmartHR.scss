@@ -9,7 +9,15 @@ html, body, div {
   padding: 0;
   border: 0; 
   font-size: 16px;
+}
+
+#wrapper {
   overflow-x: hidden;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  border: 0; 
+  height: auto;
 }
 
 $darkBlue: #1b1464 !global;
@@ -21,7 +29,8 @@ Text
 .background {
 	position: relative;
 	width: 100vw;
-	margin: -50px 0 0;
+	margin: -50px 0;
+	padding: 0 0 50px 0;
 	height: auto;
 	background: $darkBlue;
 	z-index: -1;
@@ -160,7 +169,6 @@ Navigation
     padding: 0;
     float: right;
     position: relative;
-    width: 100vw;
 	z-index: 3;
 }
 
@@ -181,6 +189,7 @@ Navigation
 	    padding: 0;
 	    float: none;
 	    position: fixed;
+    	width: 100vw;
 	    top: 50%;
 		z-index: 3;
 		display: none;
@@ -204,6 +213,14 @@ Navigation
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+.returnToTop {
+	width: 50px;
+	right: 20px;
+	bottom: 20px;
+}
 }
 
 .menuTransition {
