@@ -9,11 +9,11 @@
 <body>
 <!-- Navigation -->
 
-	<div class="sandwichIcon">
+<!-- 	<div class="sandwichIcon">
 		<div class="barOne"></div>
 		<div class="barTwo"></div>
 		<div class="barThree"></div>
-	</div>
+	</div> -->
 
 	<div class="menuBar"></div>
 

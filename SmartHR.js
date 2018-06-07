@@ -8,6 +8,7 @@ window.onload=function(){
 
 	var returnToTop = document.querySelector(".returnToTop");
 	var navigationClose = document.querySelector(".navigationClose");
+	var links = document.querySelector(".links");
 
 	var touchstartY = 0;
 	var touchendY = 0;
@@ -23,6 +24,7 @@ window.onload=function(){
 		navigationClose.classList.add('menuTransition');
 		body.style.overflow = 'hidden';
 		returnToTop.style.display = "none";
+		links.style.display = "block";
 		flipper = 1;
 	}, false);
 
@@ -31,6 +33,7 @@ window.onload=function(){
 		navigationClose.classList.remove('menuTransition');
 		body.style.overflow = 'visible';
 		returnToTop.style.display = "block";
+		links.style.display = "none";
 		flipper = 0;
 	}, false);
 

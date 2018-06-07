@@ -7,15 +7,16 @@ html, body, div {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 /****************************************************
 Text
 ****************************************************/
 .background {
-  position: absolute;
+  position: relative;
   width: 100vw;
-  margin: 0;
+  margin: -50px 0 0;
   height: auto;
   background: #1b1464;
   z-index: -1; }
@@ -52,6 +53,39 @@ h2 {
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
+@media only screen and (max-width: 600px) {
+  .background p {
+    position: relative;
+    font-kerning: normal;
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 50px 75px 0;
+    color: #ffffff;
+    font-family: 'Panton-SemiBold';
+    src: url("webfonts/369051_E_0.eot");
+    src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
+
+  h1 {
+    width: 5px;
+    font-size: 2.5rem;
+    margin: 50px 0 0px;
+    -webkit-transform: translate3d(20vw, 0, 0);
+    transform: translate3d(20vw, 0, 0);
+    color: #1b1464;
+    font-family: 'Panton-ExtraBold';
+    src: url("webfonts/369051_4_0.eot");
+    src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
+
+  h2 {
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #1b1464;
+    -webkit-transform: translate3d(35vw, 0, 0);
+    transform: translate3d(35vw, 0, 0);
+    font-family: 'Panton-SemiBold';
+    src: url("webfonts/369051_E_0.eot");
+    src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 /***************************************************
 Navigation
 ****************************************************/
@@ -84,11 +118,12 @@ Navigation
 
 .menuBar {
   width: 0vw;
-  height: 200px;
+  height: 50px;
   margin: 0;
   background: #ffffff;
   position: fixed;
-  top: 0; }
+  top: 0;
+  z-index: 2; }
 
 @media only screen and (max-width: 600px) {
   .menuBar {
@@ -96,13 +131,13 @@ Navigation
 
   .sandwichIcon {
     width: 100px; } }
-    
 .links {
   list-style-type: none;
-  margin: 40px 200px;
+  margin: 100px 200px;
   padding: 0;
   float: right;
-  position: relative; }
+  position: relative;
+  z-index: 3; }
 
 .linkOne, .linkTwo, .linkThree {
   float: left;
@@ -112,18 +147,33 @@ Navigation
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
+@media only screen and (max-width: 600px) {
+  .links {
+    list-style-type: none;
+    margin: -207px auto 0;
+    text-align: center;
+    padding: 0;
+    float: none;
+    position: relative;
+    top: 50%;
+    z-index: 3;
+    display: none; }
+
+  .linkOne, .linkTwo, .linkThree {
+    padding: 50px;
+    margin: 0;
+    font-size: 2rem;
+    float: none;
+    font-family: 'Panton-SemiBold';
+    src: url("webfonts/369051_E_0.eot");
+    src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 .returnToTop {
   width: 100px;
-  height: 100px;
+  height: auto;
   margin: 0;
   position: fixed;
-  -webkit-transform: translate3d(85vw, 75vh, 0);
-  transform: translate3d(85vw, 75vh, 0); }
-
-@media only screen and (max-width: 450px) {
-  .returnToTop {
-    -webkit-transform: translate3d(85vw, 85vh, 0);
-    transform: translate3d(85vw, 85vh, 0); } }
+  right: 50px;
+  bottom: 50px; }
 
 .menuTransition {
   -webkit-transform: translate3d(0, 80vh, 0);
@@ -133,28 +183,29 @@ Navigation
   height: 100vh; }
 
 .navigationClose {
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   position: fixed;
   margin: 0;
   right: 0;
   top: -80vh;
-  background: #ffffff; }
+  background: #ffffff;
+  z-index: 3; }
 
 .lineL {
-  width: 15px;
-  height: 150px;
+  width: 5px;
+  height: 75px;
   position: fixed;
   background: #000000;
-  margin: 25px 100px;
+  margin: 1px 40px;
   transform: rotate3d(0, 0, 1, 45deg); }
 
 .lineR {
-  width: 15px;
-  height: 150px;
+  width: 5px;
+  height: 75px;
   position: fixed;
   background: #000000;
-  margin: 25px 100px;
+  margin: 1px 40px;
   transform: rotate3d(0, 0, 1, 315deg); }
 
 /****************************************************
@@ -162,14 +213,7 @@ Graphic Imagery
 ****************************************************/
 .SVGImage {
   margin: 0;
-  height: 10vh;
+  height: auto;
   width: 100vw; }
-
-@media only screen and (min-width: 800px) {
-  .SVGImage {
-    height: 15vh; } }
-@media only screen and (min-width: 1300px) {
-  .SVGImage {
-    height: 50vh; } }
 
 /*# sourceMappingURL=SmartHR.css.map */
