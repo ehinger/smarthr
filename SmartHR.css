@@ -10,7 +10,7 @@ html, body, div {
   font-size: 16px; }
 
 #wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -31,17 +31,38 @@ Text
   .background p {
     position: relative;
     font-kerning: normal;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     padding: 50px 200px 0;
     color: #ffffff;
     font-family: 'Panton-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
+  .background h3 {
+    position: relative;
+    font-kerning: normal;
+    font-size: 2rem;
+    margin: 0;
+    color: #ffffff;
+    padding: 50px 200px 0;
+    font-family: 'Panton-SemiBold';
+    src: url("webfonts/369051_4_0.eot");
+    src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
+  .background ul {
+    position: relative;
+    font-kerning: normal;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffffff;
+    padding: 50px 200px;
+    font-family: 'Panton-SemiBold';
+    src: url("webfonts/369051_4_0.eot");
+    src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
 h1 {
   width: 5px;
   font-size: 5rem;
+  font-kerning: normal;
   margin: 100px 0 0px;
   -webkit-transform: translate3d(20vw, 0, 0);
   transform: translate3d(20vw, 0, 0);
@@ -53,6 +74,7 @@ h1 {
 h2 {
   width: 400px;
   font-size: 2rem;
+  font-kerning: normal;
   margin: 0;
   color: #1b1464;
   -webkit-transform: translate3d(35vw, 0, 0);
@@ -145,12 +167,20 @@ Navigation
   padding: 0;
   float: right;
   position: relative;
-  z-index: 3; }
+  z-index: 3;
+  color: #1b1464; }
+  .links a {
+    text-decoration: none; }
+    .links a:hover {
+      text-decoration: underline; }
+    .links a:visited {
+      color: #1b1464; }
 
 .linkOne, .linkTwo, .linkThree {
   float: left;
   margin: 0 50px;
   font-size: 2rem;
+  font-kerning: normal;
   font-family: 'Panton-SemiBold';
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
