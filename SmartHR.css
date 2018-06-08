@@ -94,6 +94,26 @@ h2 {
     font-family: 'Panton-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
+    .background p h3 {
+      position: relative;
+      font-kerning: normal;
+      font-size: 2rem;
+      margin: 0;
+      color: #ffffff;
+      padding: 50px 75px 0;
+      font-family: 'Panton-SemiBold';
+      src: url("webfonts/369051_4_0.eot");
+      src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
+    .background p ul {
+      position: relative;
+      font-kerning: normal;
+      font-size: 1.5rem;
+      margin: 0;
+      color: #ffffff;
+      padding: 50px 75px;
+      font-family: 'Panton-SemiBold';
+      src: url("webfonts/369051_4_0.eot");
+      src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
   h1 {
     width: 5px;
