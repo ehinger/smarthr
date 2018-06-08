@@ -170,6 +170,9 @@ Navigation
     float: right;
     position: relative;
 	z-index: 3;
+		a {
+			text-decoration: none;
+		}
 }
 
 .linkOne, .linkTwo, .linkThree {

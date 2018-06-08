@@ -48,7 +48,7 @@ window.onload=function(){
 
 	body.addEventListener('touchend', function(event) {
 		touchendY = event.changedTouches[0].screenY;
-		if (document.documentElement.scrollTop >= 50 && flipper == 0) {
+		if (document.documentElement.scrollTop >= 250 && flipper == 0) {
 			console.log(background.offsetTop);
 				handleGesure();
 }
