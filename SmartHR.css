@@ -89,6 +89,7 @@ h2 {
     font-kerning: normal;
     font-size: 1rem;
     line-height: 1.7;
+    margin: -50px 0;
     padding: 50px 75px 0;
     color: #ffffff;
     font-family: 'Panton-SemiBold';
@@ -282,5 +283,14 @@ Graphic Imagery
   position: relative;
   height: auto;
   width: 100vw; }
+
+@media only screen and (max-width: 600px) {
+  .SVGImage {
+    margin: 0;
+    top: 0px;
+    z-index: -2;
+    position: relative;
+    height: auto;
+    width: 100vw; } }
 
 /*# sourceMappingURL=SmartHR.css.map */
