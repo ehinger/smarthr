@@ -29,7 +29,7 @@ Text
 .background {
 	position: relative;
 	width: 100vw;
-	margin: -50px 0;
+	margin: -250px 0;
 	padding: 0 0 50px 0;
 	height: auto;
 	background: $darkBlue;
@@ -326,6 +326,9 @@ Graphic Imagery
 
 .SVGImage {
 	margin: 0;
+	top: -125px;
+	z-index: -2;
+	position: relative;
 	height: auto;
 	width: 100vw;
 }
