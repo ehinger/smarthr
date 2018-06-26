@@ -6,6 +6,8 @@ window.onload=function(){
 
 	var menuBar = document.querySelector(".menuBar");
 
+	var sandwichIcon = document.querySelector(".sandwichIcon");
+
 	var returnToTop = document.querySelector(".returnToTop");
 	var navigationClose = document.querySelector(".navigationClose");
 	var links = document.querySelector(".links");
@@ -19,12 +21,13 @@ window.onload=function(){
 
 // Navigation ///////////////////////////////////////////////////////////////////////////////////
 
-	menuBar.addEventListener("click", function(){
+	sandwichIcon.addEventListener("click", function(){
 		menuBar.classList.add('closeTransition');
 		navigationClose.classList.add('menuTransition');
 		body.style.overflow = 'hidden';
 		returnToTop.style.display = "none";
-		links.style.display = "block";
+		sandwichIcon.style.display = "none";
+		links.classList.add('linksRemove');
 		flipper = 1;
 	}, false);
 
@@ -34,7 +37,8 @@ window.onload=function(){
 		body.style.overflow = 'visible';
 		body.style.overflowX = 'hidden';
 		returnToTop.style.display = "block";
-		links.style.display = "none";
+		sandwichIcon.style.display = "block";
+		links.classList.remove('linksRemove');
 		flipper = 0;
 	}, false);
 
@@ -50,9 +54,10 @@ window.onload=function(){
 		touchendY = event.changedTouches[0].screenY;
 		if (document.documentElement.scrollTop >= 250 && flipper == 0) {
 			console.log(background.offsetTop);
-				handleGesure();
+			sandwichIcon.style.background = '#ffffff';
+			// handleGesure();
 }
-		}, false); 
+		}, false);
 
 	function handleGesure() {
 		if (touchendY < touchstartY) {

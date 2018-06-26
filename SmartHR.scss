@@ -26,132 +26,312 @@ $darkBlue: #1b1464 !global;
 Text
 ****************************************************/
 
+.introp {
+    position: relative;
+    text-align: left;
+    font-kerning: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 200px 0;
+    min-width: 300px;
+    color: #1b1464;
+    z-index: -10;
+    font-family: 'Panton-Regular';	
+}
+
+.introh {
+	position: relative;
+    font-kerning: normal;
+    font-size: 4rem;
+    text-align: left;
+    color: #1b1464;
+    margin: 50px 200px 0;
+    min-width: 300px;
+    z-index: -10;
+    font-family: 'Panton-SemiBold';
+}
+
+.introWrapper {
+	margin: 0;
+	position: fixed;
+	z-index: -10;
+}
+
+@media only screen and (max-width: 900px) {
+.introp {
+    position: relative;
+    text-align: left;
+    font-kerning: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 25px 0;
+    color: #1b1464;
+    z-index: -10;
+    font-family: 'Panton-Regular';
+}
+
+.introh {
+    position: relative;
+    font-kerning: normal;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #1b1464;
+    margin: 0 25px;
+    min-width: 300px;
+    z-index: -10;
+    font-family: 'Panton-SemiBold';
+}
+
+.introWrapper {
+	margin: 0;
+	position: fixed;
+	z-index: -10;
+}
+}
+
 .background {
 	position: relative;
 	width: 100vw;
-	margin: -250px 0;
+	margin: -50px 0 0;
 	padding: 0 0 50px 0;
 	height: auto;
 	background: $darkBlue;
-	z-index: -1;
-		p {
+	z-index: -3;
+		.aboutp {
+			position: relative;
+			text-align: left;
+			font-kerning: normal;
+			font-size: 1.5rem;
+			line-height: 1.8;
+			padding: 50px 200px 150px;
+			min-width: 300px;
+			color: #ffffff;
+			font-family: 'Panton-Regular';
+			src: url('webfonts/369051_E_0.eot');
+			src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
+		}
+		.abouth {
+			position: relative;
+			font-kerning: normal;
+			text-align: left;
+			font-size: 5rem;
+			margin: 0;
+			color: #ffffff;
+			padding: 50px 200px 0;
+			min-width: 300px;
+			font-family: 'Panton-SemiBold';
+			src: url('webfonts/369051_4_0.eot');
+			src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
+		}
+}
+
+.midSVG {
+	margin: 0;
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    z-index: -1;
+}
+
+.bottomSVG {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.WWD {
+	margin: 150px 200px;
+    height: 700px;
+    width: auto;
+	.wwdp {
 		position: relative;
-		font-kerning: normal;
-		font-size: 1.5rem;
-		line-height: 1.6;
-		padding: 50px 200px 0;
-		color: #ffffff;
-		font-family: 'Panton-SemiBold';
-		src: url('webfonts/369051_E_0.eot');
-		src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
+	    font-kerning: normal;
+	    font-size: 1rem;
+	    line-height: 1.7;
+	    color: #ffffff;
+	    padding: 0 50px;
+	    font-family: 'Panton-Regular';
 	}
-	h3 {
-		position: relative;
-		font-kerning: normal;
-		font-size: 2rem;
-		margin: 0;
-		color: #ffffff;
-		padding: 50px 200px 0;
-		font-family: 'Panton-SemiBold';
-		src: url('webfonts/369051_4_0.eot');
-		src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
+	.wwdh {
+		font-size: 3rem;
+	    position: relative;
+	    color: #ffffff;
+	    text-align: left;
+	    padding: 50px 50px 0;
+	    font-family: 'Panton-Semibold';
 	}
-	ul {
-		position: relative;
-		font-kerning: normal;
-		font-size: 1.5rem;
-		margin: 0;
-		color: #ffffff;
-		padding: 50px 200px;
-		font-family: 'Panton-SemiBold';
-		src: url('webfonts/369051_4_0.eot');
-		src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');		
+	.wwdul {
+		font-size: 1rem;
+	    position: relative;
+	    line-height: 1.8;
+	    margin: 0;
+	    color: #ffffff;
+	    padding: 0;
+	    font-family: 'Panton-Regular';
+	}
+	img {
+		margin: 0 50px 0 0;
+	    float: left;
+	    height: 600px;
+	    width: auto;
 	}
 }
 
+@media only screen and (max-width: 1400px) {
+	.WWD {
+	margin: 0 auto 50px;
+    height: auto;
+	.wwdp {
+		position: relative;
+	    font-kerning: normal;
+	    font-size: 1rem;
+	    line-height: 1.7;
+	    color: #ffffff;
+	    padding: 0 50px 0;
+	    font-family: 'Panton-Regular';
+	}
+	.wwdh {
+		font-size: 2rem;
+	    position: relative;
+	    color: #ffffff;
+	    padding: 50px 50px 0;
+	}
+	.wwdul {
+		font-size: 1rem;
+	    position: relative;
+	    line-height: 1.8;
+	    margin: 0;
+	    color: #ffffff;
+	    padding: 50px;
+	    font-family: 'Panton-Regular';
+	}
+	img {
+		margin: 0 auto;
+	    height: auto;
+	    width: 100vw;
+	}
+}
+}
+
+.contactWrapper {
+	margin: -65px 0;
+	background: #ffffff;
+	height: 650px;
+	width: 100vw;
+		.contactp {
+				position: relative;
+				font-kerning: normal;
+				font-size: 2rem;
+				line-height: 1.6;
+				min-width: 300px;
+				padding: 50px 200px 50px;
+				color: $darkBlue;
+				font-family: 'Panton-Regular';
+				src: url('webfonts/369051_E_0.eot');
+				src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
+			}
+
+		.contacth {
+			position: relative;
+		    font-kerning: normal;
+		    font-size: 4rem;
+		    text-align: left;
+		    color: #1b1464;
+		    margin: 50px 200px 0;
+		    min-width: 300px;
+		    font-family: 'Panton-SemiBold';
+		}
+}
+
+.pageTitle {
+    width: 450px;
+    height: 200px;
+    position: relative;
+    margin: 100px 200px 0;
+}
+
 h1 {
-	width: 5px;
-	font-size: 5rem;
-	font-kerning: normal;
-	margin: 100px 0 0px;
-	-webkit-transform: translate3d(20vw, 0, 0);
-	transform: translate3d(20vw, 0, 0);
-	color: $darkBlue;
+    font-size: 2.5rem;
+    font-kerning: normal;
+    color: #1b1464;
 	font-family: 'Panton-ExtraBold';
 	src: url('webfonts/369051_4_0.eot');
 	src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
 }
 
 h2 {
-	width: 400px;
-	font-size: 2rem;
-	font-kerning: normal;
-	margin: 0;
-	color: $darkBlue;
-	-webkit-transform: translate3d(35vw, 0, 0);
-	transform: translate3d(35vw, 0, 0);
+    font-size: 1.5rem;
+    font-kerning: normal;
+    margin: -30px 70px;
+    color: #1b1464;
+    position: absolute;
 	font-family: 'Panton-SemiBold';
 	src: url('webfonts/369051_E_0.eot');
 	src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
 }
 
-@media only screen and (max-width: 600px) {
-	.background p {
+@media only screen and (max-width: 900px) {
+	.background {
 		position: relative;
-		font-kerning: normal;
-		font-size: 1rem;
-		line-height: 1.7;
-		margin: -50px 0;
-		padding: 50px 75px 0;
-		color: #ffffff;
-		font-family: 'Panton-SemiBold';
-		src: url('webfonts/369051_E_0.eot');
-		src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2')
-		format('woff2'),url('webfonts/369051_E_0.woff')
-		format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
-		h3 {
-			position: relative;
-			font-kerning: normal;
-			font-size: 2rem;
-			margin: 0;
-			color: #ffffff;
-			padding: 50px 75px 0;
-			font-family: 'Panton-SemiBold';
-			src: url('webfonts/369051_4_0.eot');
-			src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
+		width: 100vw;
+		margin: 88vh 0 0;
+		padding: 0 0 50px 0;
+		height: auto;
+		background: $darkBlue;
+		z-index: -1;
+		.aboutp {
+			font-size: 1rem;
+			padding: 50px 25px 150px;
 		}
-		ul {
-			position: relative;
-			font-kerning: normal;
-			font-size: 1.5rem;
-			margin: 0;
-			color: #ffffff;
-			padding: 50px 75px;
-			font-family: 'Panton-SemiBold';
-			src: url('webfonts/369051_4_0.eot');
-			src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');		
+		.abouth {
+			font-size: 2.5rem;
+			padding: 50px 25px 0;
 		}
-	}
+		}
+.midSVG {
+    width: 125vw;
+}
+
+
+.contactWrapper {
+	overflow-x: hidden;
+		.contactp {
+				font-size: 1.5rem;
+				padding: 50px 25px 50px;
+			}
+
+		.contacth {
+		    font-size: 2.5rem;
+		    margin: 50px 25px 0;
+		}
+}
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+.pageTitle {
+	width: 450px;
+    height: 75px;
+    position: relative;
+    margin: 0;
+}
 
 	h1 {
-		width: 5px;
-		font-size: 2.5rem;
-		margin: 50px 0 0px;
-		-webkit-transform: translate3d(20vw, 0, 0);
-		transform: translate3d(20vw, 0, 0);
-		color: $darkBlue;
+ 	    font-size: 2rem;
+	    margin: 50px 25px 0px;
+	    color: #1b1464;
 		font-family: 'Panton-ExtraBold';
 		src: url('webfonts/369051_4_0.eot');
 		src: url('webfonts/369051_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_4_0.woff2') format('woff2'),url('webfonts/369051_4_0.woff') format('woff'),url('webfonts/369051_4_0.ttf') format('truetype');
 	}
 
 	h2 {
-		width: 400px;
-		font-size: 1.5rem;
-		margin: 0;
-		color: $darkBlue;
-		-webkit-transform: translate3d(35vw, 0, 0);
-		transform: translate3d(35vw, 0, 0);
+	    font-size: 1rem;
+	    margin: 0 85px;
+	    color: #1b1464;
 		font-family: 'Panton-SemiBold';
 		src: url('webfonts/369051_E_0.eot');
 		src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
@@ -195,7 +375,7 @@ Navigation
 
 .menuBar {
 	width: 0vw;
-	height: 50px;
+	height: 0;
 	margin: 0;
 	background: #ffffff;
 	position: fixed;
@@ -203,13 +383,31 @@ Navigation
 	z-index: 2;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 900px) {
     .menuBar {
 		width: 100vw;
 	}
+
 	.sandwichIcon {
-		width: 100px;
+		top: 60px;
+		width: 50px;
+		height: 37px;
 	}
+
+	.barOne {
+		height: 6px;
+	}
+
+	.barTwo {
+		height: 6px;
+		margin: 6px 0;
+	}
+
+	.barThree {
+		height: 6px;
+	}
+
 }
 
 .links {
@@ -220,7 +418,9 @@ Navigation
     position: relative;
 	z-index: 3;
 	color: $darkBlue;
+	display: block;
 		a {
+			color: $darkBlue;
 			text-decoration: none;
 				&:hover {
 					text-decoration: underline;
@@ -241,7 +441,30 @@ Navigation
 	src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1650px) {
+.links {
+    margin: 100px 100px;
+}
+}
+
+@media only screen and (max-width: 1400px) {
+.links {
+    margin: 50px 50px 200px;
+}
+	.linksRemove {
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 1100px) {
+	.linkOne, .linkTwo, .linkThree {
+		margin: 0 30px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
 	.links {
 	    list-style-type: none;
 	    margin: -207px auto 0;
@@ -255,6 +478,10 @@ Navigation
 		display: none;
 	}
 
+	.linksRemove {
+		display: block;
+	}
+
 	.linkOne, .linkTwo, .linkThree {
 		padding: 50px;
 		margin: 0;
@@ -265,7 +492,6 @@ Navigation
 		src: url('webfonts/369051_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/369051_E_0.woff2') format('woff2'),url('webfonts/369051_E_0.woff') format('woff'),url('webfonts/369051_E_0.ttf') format('truetype');
 	}
 }
-
 .returnToTop {
 	width: 100px;
 	height: auto;
@@ -273,9 +499,10 @@ Navigation
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
+	z-index: -2;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 .returnToTop {
 	width: 50px;
 	right: 20px;
@@ -326,19 +553,18 @@ Graphic Imagery
 ****************************************************/
 
 .SVGImage {
-	margin: 0;
-	top: -125px;
-	z-index: -2;
+	margin: 592px 0 0;
+	z-index: -1;
 	position: relative;
 	height: auto;
 	width: 100vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 .SVGImage {
 	margin: 0;
-	top: 0px;
-	z-index: -2;
+	top: 90vh;
+	z-index: 0;
 	position: relative;
 	height: auto;
 	width: 100vw;
