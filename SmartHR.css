@@ -44,7 +44,7 @@ Text
   font-family: 'Panton-SemiBold'; }
 
 .introWrapper {
-  margin: 0;
+  margin: 200px 0;
   position: fixed;
   z-index: -10; }
 
@@ -212,8 +212,8 @@ Text
 
 .pageTitle {
   width: 450px;
-  height: 200px;
-  position: relative;
+  height: auto;
+  position: fixed;
   margin: 100px 200px 0; }
 
 h1 {
@@ -342,10 +342,11 @@ Navigation
     height: 6px; } }
 .links {
   list-style-type: none;
-  margin: 100px 200px;
+  margin: 100px 0;
+  right: 200px;
   padding: 0;
   float: right;
-  position: relative;
+  position: fixed;
   z-index: 3;
   color: #1b1464;
   display: block; }
@@ -384,6 +385,7 @@ Navigation
     margin: -207px auto 0;
     text-align: center;
     padding: 0;
+    right: auto;
     float: none;
     position: fixed;
     width: 100vw;
@@ -408,8 +410,7 @@ Navigation
   margin: 0;
   position: fixed;
   right: 50px;
-  bottom: 50px;
-  z-index: -2; }
+  bottom: 50px; }
 
 @media only screen and (max-width: 900px) {
   .returnToTop {

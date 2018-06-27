@@ -27,8 +27,6 @@
 		<div class="returnToTop">
 			<img src="SmartHR_ReturnToTopButton.svg" alt="An arrow pointing upwards inside a circle.">
 		</div>
-	
-		<div class="introWrapper">
 
 		<ul class="links">
 			<li class="linkOne"><a href="javascript:;">About</a></li>
@@ -41,6 +39,8 @@
 		<h1>SmartHR</h1>
 		<h2>Raylee Marfell</h2>
 		</div>
+	
+		<div class="introWrapper">
 
 		<h3 class="introh">Helping people to help themselves.<br><br></h3>
 		
@@ -52,14 +52,14 @@
 			<img src="SmartHR_header_image.svg" alt="A flourish of blues">
 		</div>
 		<div class="background">
-			<h3 class="abouth">Getting under the surface.<br><br></h3>
+			<h3 class="abouth aboutScroll">Getting under the surface.<br><br></h3>
 
 
 				<p class="aboutp">Over the years, what I’ve realised about myself, is that the work I’ve most enjoyed is when I’ve worked with individuals, team and organisations, to focus on the things that can make a real difference to workplace wellbeing. This includes fixing a process, problem removing obstacles, and resolving disagreements.
 					I believe that most people come to work and want to enjoy the experience. I also know and appreciate that sometimes things aren’t always plain sailing and people need help to work through an issue or concern. I know the key to achieving positive and pragmatic solutions is to create a forum that allows respectful, safe and structured conversations. <br><br></p>
 
 					<img class="midSVG" src="Smarthr_mid_image.svg">
-					<h3 class="abouth">My portfolio includes coaching, investigations, and also organisational and people development.<br><br></h3>
+					<h3 class="abouth WWDScroll">My portfolio includes coaching, investigations, and also organisational and people development.<br><br></h3>
 
 					<div class="WWD"><img src="Smarthr_coaching.svg"><h3 class="wwdh">Coaching – Helping people to help themselves</h3>
 					<p class="wwdp">My approach is to explore the whole system to understand and explore cause and effect.
@@ -111,5 +111,6 @@
 
 
 </body>
+<script type="text/javascript" src="smoothscroll.min.js"></script>
 <script type="text/javascript" src="SmartHR.js"></script>
 </html>

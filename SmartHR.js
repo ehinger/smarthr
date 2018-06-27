@@ -12,6 +12,14 @@ window.onload=function(){
 	var navigationClose = document.querySelector(".navigationClose");
 	var links = document.querySelector(".links");
 
+	var linkOne = document.querySelector(".linkOne");
+	var linkTwo = document.querySelector(".linkTwo");
+	var linkThree = document.querySelector(".linkThree");
+
+	var aboutScroll = document.querySelector(".aboutScroll");
+	var WWDScroll = document.querySelector(".WWDScroll");
+	var contactWrapper = document.querySelector(".contactWrapper");
+
 	var touchstartY = 0;
 	var touchendY = 0;
 
@@ -43,7 +51,19 @@ window.onload=function(){
 	}, false);
 
 	returnToTop.addEventListener("click", function(){
-		scroll(0,background.scrollTop);
+		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+	}, false);
+
+	linkOne.addEventListener("click", function(){
+		aboutScroll.scrollIntoView({ behavior: 'smooth' });
+	}, false);
+
+	linkTwo.addEventListener("click", function(){
+		WWDScroll.scrollIntoView({ behavior: 'smooth' });
+	}, false);
+
+	linkThree.addEventListener("click", function(){
+		contactWrapper.scrollIntoView({ behavior: 'smooth' });
 	}, false);
 
 	body.addEventListener('touchstart', function(event) {
