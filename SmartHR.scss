@@ -386,7 +386,8 @@ Navigation
 
 @media only screen and (max-width: 900px) {
     .menuBar {
-		width: 100vw;
+		width: 90vw;
+    	margin: 5vw;
 	}
 
 	.sandwichIcon {
@@ -524,7 +525,7 @@ Navigation
 	width: 80px;
 	height: 80px;
 	position: fixed;
-	margin: 0;
+	margin: 5vw;
 	right: 0;
 	top: -80vh;
 	background: #ffffff;
