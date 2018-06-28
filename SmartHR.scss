@@ -36,7 +36,7 @@ Text
     min-width: 300px;
     color: #1b1464;
     z-index: -10;
-    font-family: 'cairo-Regular';	
+    font-family: 'Cairo', sans-serif;
 }
 
 .introh {
@@ -48,7 +48,7 @@ Text
     margin: 50px 200px 0;
     min-width: 300px;
     z-index: -10;
-    font-family: 'cairo-SemiBold';
+    font-family: 'Cairo', sans-serif;
 }
 
 .introWrapper {
@@ -67,7 +67,7 @@ Text
     margin: 0 25px 0;
     color: #1b1464;
     z-index: -10;
-    font-family: 'cairo-Regular';
+    font-family: 'Cairo', sans-serif;
 }
 
 .introh {
@@ -79,7 +79,7 @@ Text
     margin: 0 25px;
     min-width: 300px;
     z-index: -10;
-    font-family: 'cairo-SemiBold';
+    font-family: 'Cairo', sans-serif;
 }
 
 .introWrapper {
@@ -106,7 +106,7 @@ Text
 			padding: 50px 200px 150px;
 			min-width: 300px;
 			color: #ffffff;
-			font-family: 'cairo-Regular';
+			font-family: 'Cairo', sans-serif;
 			src: url('webfonts/369051_E_0.eot');
 		}
 		.abouth {
@@ -118,7 +118,7 @@ Text
 			color: #ffffff;
 			padding: 50px 200px 0;
 			min-width: 300px;
-			font-family: 'cairo-SemiBold';
+			font-family: 'Cairo', sans-serif;
 		}
 }
 
@@ -149,7 +149,7 @@ Text
 	    line-height: 1.7;
 	    color: #ffffff;
 	    padding: 0 50px;
-	    font-family: 'cairo-Regular';
+	    font-family: 'Cairo', sans-serif;
 	}
 	.wwdh {
 		font-size: 3rem;
@@ -157,7 +157,7 @@ Text
 	    color: #ffffff;
 	    text-align: left;
 	    padding: 50px 50px 0;
-	    font-family: 'cairo-Semibold';
+	    font-family: 'Cairo', sans-serif;
 	}
 	.wwdul {
 		font-size: 1rem;
@@ -166,7 +166,7 @@ Text
 	    margin: 0;
 	    color: #ffffff;
 	    padding: 0;
-	    font-family: 'cairo-Regular';
+	    font-family: 'Cairo', sans-serif;
 	}
 	img {
 		margin: 0 50px 0 0;
@@ -187,7 +187,7 @@ Text
 	    line-height: 1.7;
 	    color: #ffffff;
 	    padding: 0 50px 0;
-	    font-family: 'cairo-Regular';
+	    font-family: 'Cairo', sans-serif;
 	}
 	.wwdh {
 		font-size: 2rem;
@@ -202,7 +202,7 @@ Text
 	    margin: 0;
 	    color: #ffffff;
 	    padding: 50px;
-	    font-family: 'cairo-Regular';
+	    font-family: 'Cairo', sans-serif;
 	}
 	img {
 		margin: 0 auto;
@@ -225,7 +225,7 @@ Text
 				min-width: 300px;
 				padding: 50px 200px 50px;
 				color: $darkBlue;
-				font-family: 'cairo-Regular';
+				font-family: 'Cairo', sans-serif;
 			}
 
 		.contacth {
@@ -236,7 +236,7 @@ Text
 		    color: #1b1464;
 		    margin: 50px 200px 0;
 		    min-width: 300px;
-		    font-family: 'cairo-SemiBold';
+		    font-family: 'Cairo', sans-serif;
 		}
 }
 
@@ -252,7 +252,7 @@ h1 {
     font-size: 2.5rem;
     font-kerning: normal;
     color: #1b1464;
-	font-family: 'cairo-ExtraBold';
+	font-family: 'Cairo', sans-serif;
 }
 
 h2 {
@@ -261,7 +261,7 @@ h2 {
     margin: -30px 70px;
     color: #1b1464;
     position: absolute;
-	font-family: 'cairo-SemiBold';
+	font-family: 'Cairo', sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
@@ -316,14 +316,14 @@ h2 {
  	    font-size: 2rem;
 	    margin: 50px 25px 0px;
 	    color: #1b1464;
-		font-family: 'cairo-ExtraBold';
+		font-family: 'Cairo', sans-serif;
 	}
 
 	h2 {
 	    font-size: 1rem;
 	    margin: 0 85px;
 	    color: #1b1464;
-		font-family: 'cairo-SemiBold';
+		font-family: 'Cairo', sans-serif;
 	}
 }
 
@@ -427,7 +427,7 @@ Navigation
 	margin: 0 50px;
 	font-size: 2rem;
 	font-kerning: normal;
-	font-family: 'cairo-SemiBold';
+	font-family: 'Cairo', sans-serif;
 }
 
 
@@ -477,7 +477,7 @@ Navigation
 		margin: 0;
 		font-size: 2rem;
 	    float: none;
-		font-family: 'cairo-SemiBold';
+		font-family: 'Cairo', sans-serif;
 	}
 }
 .returnToTop {
