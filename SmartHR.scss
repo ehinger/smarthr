@@ -186,14 +186,14 @@ Text
 	    font-size: 1rem;
 	    line-height: 1.7;
 	    color: #ffffff;
-	    padding: 0 50px 0;
+	    padding: 0 200px 0;
 	    font-family: 'Cairo', sans-serif;
 	}
 	.wwdh {
 		font-size: 2rem;
 	    position: relative;
 	    color: #ffffff;
-	    padding: 50px 50px 0;
+	    padding: 50px 200px 0;
 	}
 	.wwdul {
 		font-size: 1rem;
@@ -201,13 +201,51 @@ Text
 	    line-height: 1.8;
 	    margin: 0;
 	    color: #ffffff;
-	    padding: 50px;
+	    padding: 50px 200px;
+	    font-family: 'Cairo', sans-serif;
+	}
+	img {
+		margin: 0 25vw;
+	    height: auto;
+	    width: 50vw;
+	    float: none;
+	}
+}
+}
+
+@media only screen and (max-width: 900px) {
+	.WWD {
+	margin: 0 auto 50px;
+    height: auto;
+	.wwdp {
+		position: relative;
+	    font-kerning: normal;
+	    font-size: 1rem;
+	    line-height: 1.7;
+	    color: #ffffff;
+	    padding: 0 25px 0;
+	    font-family: 'Cairo', sans-serif;
+	}
+	.wwdh {
+		font-size: 2rem;
+	    position: relative;
+	    color: #ffffff;
+	    padding: 50px 25px 0;
+	}
+	.wwdul {
+		font-size: 1rem;
+	    position: relative;
+	    line-height: 1.8;
+	    margin: 0;
+	    color: #ffffff;
+	    padding: 50px 25px;
 	    font-family: 'Cairo', sans-serif;
 	}
 	img {
 		margin: 0 auto;
 	    height: auto;
 	    width: 100vw;
+	    float: none;
 	}
 }
 }
