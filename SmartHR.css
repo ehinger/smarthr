@@ -30,7 +30,7 @@ Text
   min-width: 300px;
   color: #1b1464;
   z-index: -10;
-  font-family: 'Panton-Regular'; }
+  font-family: 'dosis-Regular'; }
 
 .introh {
   position: relative;
@@ -41,7 +41,7 @@ Text
   margin: 50px 200px 0;
   min-width: 300px;
   z-index: -10;
-  font-family: 'Panton-SemiBold'; }
+  font-family: 'dosis-SemiBold'; }
 
 .introWrapper {
   margin: 200px 0;
@@ -58,7 +58,7 @@ Text
     margin: 0 25px 0;
     color: #1b1464;
     z-index: -10;
-    font-family: 'Panton-Regular'; }
+    font-family: 'dosis-Regular'; }
 
   .introh {
     position: relative;
@@ -69,7 +69,7 @@ Text
     margin: 0 25px;
     min-width: 300px;
     z-index: -10;
-    font-family: 'Panton-SemiBold'; }
+    font-family: 'dosis-SemiBold'; }
 
   .introWrapper {
     margin: 0;
@@ -82,7 +82,7 @@ Text
   padding: 0 0 50px 0;
   height: auto;
   background: #1b1464;
-  z-index: -3; }
+  z-index: 1; }
   .background .aboutp {
     position: relative;
     text-align: left;
@@ -92,7 +92,7 @@ Text
     padding: 50px 200px 150px;
     min-width: 300px;
     color: #ffffff;
-    font-family: 'Panton-Regular';
+    font-family: 'dosis-Regular';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
   .background .abouth {
@@ -104,7 +104,7 @@ Text
     color: #ffffff;
     padding: 50px 200px 0;
     min-width: 300px;
-    font-family: 'Panton-SemiBold';
+    font-family: 'dosis-SemiBold';
     src: url("webfonts/369051_4_0.eot");
     src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -133,14 +133,14 @@ Text
     line-height: 1.7;
     color: #ffffff;
     padding: 0 50px;
-    font-family: 'Panton-Regular'; }
+    font-family: 'dosis-Regular'; }
   .WWD .wwdh {
     font-size: 3rem;
     position: relative;
     color: #ffffff;
     text-align: left;
     padding: 50px 50px 0;
-    font-family: 'Panton-Semibold'; }
+    font-family: 'dosis-Semibold'; }
   .WWD .wwdul {
     font-size: 1rem;
     position: relative;
@@ -148,7 +148,7 @@ Text
     margin: 0;
     color: #ffffff;
     padding: 0;
-    font-family: 'Panton-Regular'; }
+    font-family: 'dosis-Regular'; }
   .WWD img {
     margin: 0 50px 0 0;
     float: left;
@@ -166,7 +166,7 @@ Text
       line-height: 1.7;
       color: #ffffff;
       padding: 0 50px 0;
-      font-family: 'Panton-Regular'; }
+      font-family: 'dosis-Regular'; }
     .WWD .wwdh {
       font-size: 2rem;
       position: relative;
@@ -179,7 +179,7 @@ Text
       margin: 0;
       color: #ffffff;
       padding: 50px;
-      font-family: 'Panton-Regular'; }
+      font-family: 'dosis-Regular'; }
     .WWD img {
       margin: 0 auto;
       height: auto;
@@ -197,7 +197,7 @@ Text
     min-width: 300px;
     padding: 50px 200px 50px;
     color: #1b1464;
-    font-family: 'Panton-Regular';
+    font-family: 'dosis-Regular';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
   .contactWrapper .contacth {
@@ -208,19 +208,20 @@ Text
     color: #1b1464;
     margin: 50px 200px 0;
     min-width: 300px;
-    font-family: 'Panton-SemiBold'; }
+    font-family: 'dosis-SemiBold'; }
 
 .pageTitle {
   width: 450px;
   height: auto;
   position: fixed;
-  margin: 100px 200px 0; }
+  margin: 100px 200px 0;
+  z-index: -1; }
 
 h1 {
   font-size: 2.5rem;
   font-kerning: normal;
   color: #1b1464;
-  font-family: 'Panton-ExtraBold';
+  font-family: 'dosis-ExtraBold';
   src: url("webfonts/369051_4_0.eot");
   src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -230,7 +231,7 @@ h2 {
   margin: -30px 70px;
   color: #1b1464;
   position: absolute;
-  font-family: 'Panton-SemiBold';
+  font-family: 'dosis-SemiBold';
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
@@ -242,7 +243,7 @@ h2 {
     padding: 0 0 50px 0;
     height: auto;
     background: #1b1464;
-    z-index: -1; }
+    z-index: 1; }
     .background .aboutp {
       font-size: 1rem;
       padding: 50px 25px 150px; }
@@ -266,13 +267,14 @@ h2 {
     width: 450px;
     height: 75px;
     position: relative;
-    margin: 0; }
+    margin: 0;
+    z-index: -1; }
 
   h1 {
     font-size: 2rem;
     margin: 50px 25px 0px;
     color: #1b1464;
-    font-family: 'Panton-ExtraBold';
+    font-family: 'dosis-ExtraBold';
     src: url("webfonts/369051_4_0.eot");
     src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -280,7 +282,7 @@ h2 {
     font-size: 1rem;
     margin: 0 85px;
     color: #1b1464;
-    font-family: 'Panton-SemiBold';
+    font-family: 'dosis-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 /***************************************************
@@ -314,7 +316,7 @@ Navigation
   background-color: #1b1464; }
 
 .menuBar {
-  width: 0vw;
+  width: 0;
   height: 0;
   margin: 0;
   background: #ffffff;
@@ -324,8 +326,8 @@ Navigation
 
 @media only screen and (max-width: 900px) {
   .menuBar {
-    width: 90vw;
-    margin: 5vw; }
+    width: 100vw;
+    margin: 0; }
 
   .sandwichIcon {
     top: 60px;
@@ -348,7 +350,7 @@ Navigation
   padding: 0;
   float: right;
   position: fixed;
-  z-index: 3;
+  z-index: 1;
   color: #1b1464;
   display: block; }
   .links a {
@@ -364,7 +366,7 @@ Navigation
   margin: 0 50px;
   font-size: 2rem;
   font-kerning: normal;
-  font-family: 'Panton-SemiBold';
+  font-family: 'dosis-SemiBold';
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
@@ -402,7 +404,7 @@ Navigation
     margin: 0;
     font-size: 2rem;
     float: none;
-    font-family: 'Panton-SemiBold';
+    font-family: 'dosis-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 .returnToTop {
@@ -411,7 +413,8 @@ Navigation
   margin: 0;
   position: fixed;
   right: 50px;
-  bottom: 50px; }
+  bottom: 50px;
+  z-index: 2; }
 
 @media only screen and (max-width: 900px) {
   .returnToTop {
@@ -429,7 +432,7 @@ Navigation
   width: 80px;
   height: 80px;
   position: fixed;
-  margin: 5vw;
+  margin: 0;
   right: 0;
   top: -80vh;
   background: #ffffff;
@@ -456,7 +459,7 @@ Graphic Imagery
 ****************************************************/
 .SVGImage {
   margin: 592px 0 0;
-  z-index: -1;
+  z-index: 2;
   position: relative;
   height: auto;
   width: 100vw; }
@@ -465,7 +468,7 @@ Graphic Imagery
   .SVGImage {
     margin: 0;
     top: 90vh;
-    z-index: 0;
+    z-index: 2;
     position: relative;
     height: auto;
     width: 100vw; } }

@@ -40,6 +40,10 @@ window.onload=function(){
 	}, false);
 
 	navigationClose.addEventListener("click", function(){
+		closeNav();
+	}, false);
+
+	function closeNav() {
 		menuBar.classList.remove('closeTransition');
 		navigationClose.classList.remove('menuTransition');
 		body.style.overflow = 'visible';
@@ -48,7 +52,7 @@ window.onload=function(){
 		sandwichIcon.style.display = "block";
 		links.classList.remove('linksRemove');
 		flipper = 0;
-	}, false);
+	}
 
 	returnToTop.addEventListener("click", function(){
 		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
@@ -56,14 +60,17 @@ window.onload=function(){
 
 	linkOne.addEventListener("click", function(){
 		aboutScroll.scrollIntoView({ behavior: 'smooth' });
+		closeNav();
 	}, false);
 
 	linkTwo.addEventListener("click", function(){
 		WWDScroll.scrollIntoView({ behavior: 'smooth' });
+		closeNav();
 	}, false);
 
 	linkThree.addEventListener("click", function(){
 		contactWrapper.scrollIntoView({ behavior: 'smooth' });
+		closeNav();
 	}, false);
 
 	body.addEventListener('touchstart', function(event) {
