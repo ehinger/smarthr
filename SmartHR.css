@@ -30,7 +30,7 @@ Text
   min-width: 300px;
   color: #1b1464;
   z-index: -10;
-  font-family: 'dosis-Regular'; }
+  font-family: 'cairo-Regular'; }
 
 .introh {
   position: relative;
@@ -41,7 +41,7 @@ Text
   margin: 50px 200px 0;
   min-width: 300px;
   z-index: -10;
-  font-family: 'dosis-SemiBold'; }
+  font-family: 'cairo-SemiBold'; }
 
 .introWrapper {
   margin: 200px 0;
@@ -58,7 +58,7 @@ Text
     margin: 0 25px 0;
     color: #1b1464;
     z-index: -10;
-    font-family: 'dosis-Regular'; }
+    font-family: 'cairo-Regular'; }
 
   .introh {
     position: relative;
@@ -69,7 +69,7 @@ Text
     margin: 0 25px;
     min-width: 300px;
     z-index: -10;
-    font-family: 'dosis-SemiBold'; }
+    font-family: 'cairo-SemiBold'; }
 
   .introWrapper {
     margin: 0;
@@ -92,7 +92,7 @@ Text
     padding: 50px 200px 150px;
     min-width: 300px;
     color: #ffffff;
-    font-family: 'dosis-Regular';
+    font-family: 'cairo-Regular';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
   .background .abouth {
@@ -104,7 +104,7 @@ Text
     color: #ffffff;
     padding: 50px 200px 0;
     min-width: 300px;
-    font-family: 'dosis-SemiBold';
+    font-family: 'cairo-SemiBold';
     src: url("webfonts/369051_4_0.eot");
     src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -133,14 +133,14 @@ Text
     line-height: 1.7;
     color: #ffffff;
     padding: 0 50px;
-    font-family: 'dosis-Regular'; }
+    font-family: 'cairo-Regular'; }
   .WWD .wwdh {
     font-size: 3rem;
     position: relative;
     color: #ffffff;
     text-align: left;
     padding: 50px 50px 0;
-    font-family: 'dosis-Semibold'; }
+    font-family: 'cairo-Semibold'; }
   .WWD .wwdul {
     font-size: 1rem;
     position: relative;
@@ -148,7 +148,7 @@ Text
     margin: 0;
     color: #ffffff;
     padding: 0;
-    font-family: 'dosis-Regular'; }
+    font-family: 'cairo-Regular'; }
   .WWD img {
     margin: 0 50px 0 0;
     float: left;
@@ -166,7 +166,7 @@ Text
       line-height: 1.7;
       color: #ffffff;
       padding: 0 50px 0;
-      font-family: 'dosis-Regular'; }
+      font-family: 'cairo-Regular'; }
     .WWD .wwdh {
       font-size: 2rem;
       position: relative;
@@ -179,7 +179,7 @@ Text
       margin: 0;
       color: #ffffff;
       padding: 50px;
-      font-family: 'dosis-Regular'; }
+      font-family: 'cairo-Regular'; }
     .WWD img {
       margin: 0 auto;
       height: auto;
@@ -197,7 +197,7 @@ Text
     min-width: 300px;
     padding: 50px 200px 50px;
     color: #1b1464;
-    font-family: 'dosis-Regular';
+    font-family: 'cairo-Regular';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
   .contactWrapper .contacth {
@@ -208,7 +208,7 @@ Text
     color: #1b1464;
     margin: 50px 200px 0;
     min-width: 300px;
-    font-family: 'dosis-SemiBold'; }
+    font-family: 'cairo-SemiBold'; }
 
 .pageTitle {
   width: 450px;
@@ -221,7 +221,7 @@ h1 {
   font-size: 2.5rem;
   font-kerning: normal;
   color: #1b1464;
-  font-family: 'dosis-ExtraBold';
+  font-family: 'cairo-ExtraBold';
   src: url("webfonts/369051_4_0.eot");
   src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -231,7 +231,7 @@ h2 {
   margin: -30px 70px;
   color: #1b1464;
   position: absolute;
-  font-family: 'dosis-SemiBold';
+  font-family: 'cairo-SemiBold';
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
@@ -274,7 +274,7 @@ h2 {
     font-size: 2rem;
     margin: 50px 25px 0px;
     color: #1b1464;
-    font-family: 'dosis-ExtraBold';
+    font-family: 'cairo-ExtraBold';
     src: url("webfonts/369051_4_0.eot");
     src: url("webfonts/369051_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_4_0.woff2") format("woff2"), url("webfonts/369051_4_0.woff") format("woff"), url("webfonts/369051_4_0.ttf") format("truetype"); }
 
@@ -282,7 +282,7 @@ h2 {
     font-size: 1rem;
     margin: 0 85px;
     color: #1b1464;
-    font-family: 'dosis-SemiBold';
+    font-family: 'cairo-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 /***************************************************
@@ -366,7 +366,7 @@ Navigation
   margin: 0 50px;
   font-size: 2rem;
   font-kerning: normal;
-  font-family: 'dosis-SemiBold';
+  font-family: 'cairo-SemiBold';
   src: url("webfonts/369051_E_0.eot");
   src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); }
 
@@ -404,7 +404,7 @@ Navigation
     margin: 0;
     font-size: 2rem;
     float: none;
-    font-family: 'dosis-SemiBold';
+    font-family: 'cairo-SemiBold';
     src: url("webfonts/369051_E_0.eot");
     src: url("webfonts/369051_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/369051_E_0.woff2") format("woff2"), url("webfonts/369051_E_0.woff") format("woff"), url("webfonts/369051_E_0.ttf") format("truetype"); } }
 .returnToTop {
