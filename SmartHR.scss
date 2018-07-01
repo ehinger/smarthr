@@ -35,8 +35,12 @@ Text
     margin: 0 200px 0;
     min-width: 300px;
     color: #1b1464;
-    z-index: -10;
     font-family: 'Cairo', sans-serif;
+}
+
+.linkFour {
+	text-decoration: underline;
+	color: $darkBlue;
 }
 
 .introh {
@@ -46,15 +50,14 @@ Text
     text-align: left;
     color: #1b1464;
     margin: 50px 200px 0;
+    height: 150px;
     min-width: 300px;
-    z-index: -10;
     font-family: 'Cairo', sans-serif;
 }
 
 .introWrapper {
 	margin: 200px 0;
 	position: fixed;
-	z-index: -10;
 }
 
 @media only screen and (max-width: 900px) {
@@ -66,26 +69,24 @@ Text
     line-height: 1.6;
     margin: 0 25px 0;
     color: #1b1464;
-    z-index: -10;
     font-family: 'Cairo', sans-serif;
 }
 
 .introh {
     position: relative;
     font-kerning: normal;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: left;
+    line-height: 1.4;
     color: #1b1464;
     margin: 0 25px;
-    min-width: 300px;
-    z-index: -10;
+    height: 110px;
     font-family: 'Cairo', sans-serif;
 }
 
 .introWrapper {
-	margin: 0;
+	margin: 100px 0;
 	position: fixed;
-	z-index: -10;
 }
 }
 
@@ -120,12 +121,18 @@ Text
 			min-width: 300px;
 			font-family: 'Cairo', sans-serif;
 		}
+		.aboutScroll {
+			height: 100px;
+		}
+		.WWDScroll {
+			height: auto;
+		}
 }
 
 .midSVG {
 	margin: 0;
     position: absolute;
-    width: 50vw;
+    width: 75vw;
     height: auto;
     z-index: -1;
 }
@@ -169,7 +176,7 @@ Text
 	    font-family: 'Cairo', sans-serif;
 	}
 	img {
-		margin: 0 50px 0 0;
+		margin: 0 50px 100px 0;
 	    float: left;
 	    height: 600px;
 	    width: auto;
@@ -228,6 +235,7 @@ Text
 	}
 	.wwdh {
 		font-size: 2rem;
+		line-height: 1.4;
 	    position: relative;
 	    color: #ffffff;
 	    padding: 50px 25px 0;
@@ -242,7 +250,7 @@ Text
 	    font-family: 'Cairo', sans-serif;
 	}
 	img {
-		margin: 0 auto;
+		margin: 0 auto -50px;
 	    height: auto;
 	    width: 100vw;
 	    float: none;
@@ -261,7 +269,7 @@ Text
 				font-size: 2rem;
 				line-height: 1.6;
 				min-width: 300px;
-				padding: 50px 200px 50px;
+				padding: 0 200px 50px;
 				color: $darkBlue;
 				font-family: 'Cairo', sans-serif;
 			}
@@ -272,7 +280,7 @@ Text
 		    font-size: 4rem;
 		    text-align: left;
 		    color: #1b1464;
-		    margin: 50px 200px 0;
+		    padding: 50px 200px 0;
 		    min-width: 300px;
 		    font-family: 'Cairo', sans-serif;
 		}
@@ -290,7 +298,8 @@ h1 {
     font-size: 2.5rem;
     font-kerning: normal;
     color: #1b1464;
-	font-family: 'Cairo', sans-serif;
+    margin: 0;
+	font-family: 'Cairo-black', sans-serif;
 }
 
 h2 {
@@ -306,18 +315,19 @@ h2 {
 	.background {
 		position: relative;
 		width: 100vw;
-		margin: 88vh 0 0;
+		margin: 80vh 0 0;
 		padding: 0 0 50px 0;
 		height: auto;
 		background: $darkBlue;
 		z-index: 1;
 		.aboutp {
 			font-size: 1rem;
-			padding: 50px 25px 150px;
+			padding: 0 25px 150px;
 		}
 		.abouth {
-			font-size: 2.5rem;
+			font-size: 2rem;
 			padding: 50px 25px 0;
+			line-height: 1.4;
 		}
 		}
 .midSVG {
@@ -329,12 +339,12 @@ h2 {
 	overflow-x: hidden;
 		.contactp {
 				font-size: 1.5rem;
-				padding: 50px 25px 50px;
+				padding: 0 25px 50px;
 			}
 
 		.contacth {
-		    font-size: 2.5rem;
-		    margin: 50px 25px 0;
+		    font-size: 2rem;
+		    padding: 50px 25px 0;
 		}
 }
 
@@ -344,22 +354,22 @@ h2 {
 
 .pageTitle {
 	width: 450px;
-    height: 75px;
-    position: relative;
-    margin: 0;
+    height: auto;
+    position: fixed;
+    margin: 25px 25px 0;
     z-index: -1;
 }
 
 	h1 {
  	    font-size: 2rem;
-	    margin: 50px 25px 0px;
+	    margin: 0;
 	    color: #1b1464;
-		font-family: 'Cairo', sans-serif;
+		font-family: 'Cairo-black', sans-serif;
 	}
 
 	h2 {
 	    font-size: 1rem;
-	    margin: 0 85px;
+	    margin: -20px 50px;
 	    color: #1b1464;
 		font-family: 'Cairo', sans-serif;
 	}
@@ -377,6 +387,7 @@ Navigation
 	height: 60px;
 	margin: 0;
 	z-index: 2;
+	background: #ffffff;
 }
 
 .barOne {
@@ -407,7 +418,7 @@ Navigation
 	background: #ffffff;
 	position: fixed;
 	top: 0;
-	z-index: 2;
+	z-index: 3;
 }
 
 
@@ -418,7 +429,7 @@ Navigation
 	}
 
 	.sandwichIcon {
-		top: 60px;
+		top: 35px;
 		width: 50px;
 		height: 37px;
 	}
@@ -440,19 +451,19 @@ Navigation
 
 .links {
     list-style-type: none;
+	color: $darkBlue;
     margin: 100px 0;
     right: 200px;
     padding: 0;
     float: right;
     position: fixed;
 	z-index: 1;
-	color: $darkBlue;
 	display: block;
 		a {
 			color: $darkBlue;
-			text-decoration: none;
+			text-decoration: underline;
 				&:hover {
-					text-decoration: underline;
+					text-decoration: none;
 				}
 				&:visited {
 					color: $darkBlue;
@@ -589,7 +600,7 @@ Graphic Imagery
 @media only screen and (max-width: 900px) {
 .SVGImage {
 	margin: 0;
-	top: 90vh;
+	top: 85vh;
 	z-index: 2;
 	position: relative;
 	height: auto;

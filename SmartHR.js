@@ -15,10 +15,13 @@ window.onload=function(){
 	var linkOne = document.querySelector(".linkOne");
 	var linkTwo = document.querySelector(".linkTwo");
 	var linkThree = document.querySelector(".linkThree");
+	var linkFour = document.querySelector(".linkFour");
 
 	var aboutScroll = document.querySelector(".aboutScroll");
 	var WWDScroll = document.querySelector(".WWDScroll");
 	var contactWrapper = document.querySelector(".contactWrapper");
+	
+	var introWrapper = document.querySelector(".introWrapper");
 
 	var touchstartY = 0;
 	var touchendY = 0;
@@ -73,36 +76,24 @@ window.onload=function(){
 		closeNav();
 	}, false);
 
+	linkFour.addEventListener("click", function(){
+		contactWrapper.scrollIntoView({ behavior: 'smooth' });
+		closeNav();
+	}, false);
+
 	body.addEventListener('touchstart', function(event) {
 		touchstartY = event.changedTouches[0].screenY;
 	}, false);
 
-	body.addEventListener('touchend', function(event) {
-		touchendY = event.changedTouches[0].screenY;
-		if (document.documentElement.scrollTop >= 250 && flipper == 0) {
-			console.log(background.offsetTop);
-			sandwichIcon.style.background = '#ffffff';
-			// handleGesure();
+window.onscroll = function() {introWrapperScrollCheck()};
+
+function introWrapperScrollCheck() {
+    if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750 && flipper == 0) {
+			introWrapper.style.zIndex = '-10';
+    } else {
+			introWrapper.style.zIndex = '1';
+    }
 }
-		}, false);
-
-	function handleGesure() {
-		if (touchendY < touchstartY) {
-			remainder = touchstartY - touchendY;
-			if (remainder >= 1) {
-				menuBar.style.display = 'none';
-				console.log("down");
-			}
-		}
-
-		if (touchendY > touchstartY) {
-			remainder = touchendY - touchstartY;
-			if (remainder >= 1) {
-				menuBar.style.display = 'block';
-				console.log("up");
-			}
-		}
-	}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 }
