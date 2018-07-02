@@ -291,7 +291,7 @@ h2 {
     .contactWrapper .contacth {
       font-size: 2rem;
       padding: 50px 25px 0; } }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 900px) {
   .pageTitle {
     width: 450px;
     height: auto;
@@ -420,9 +420,6 @@ Navigation
     z-index: 3;
     display: none; }
 
-  .linksRemove {
-    display: block; }
-
   .linkOne, .linkTwo, .linkThree {
     padding: 50px;
     margin: 0;
@@ -436,13 +433,22 @@ Navigation
   position: fixed;
   right: 50px;
   bottom: 50px;
-  z-index: 2; }
+  z-index: 2;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; }
+  .returnToTop:hover {
+    opacity: .7; }
 
 @media only screen and (max-width: 900px) {
   .returnToTop {
     width: 50px;
     right: 20px;
-    bottom: 20px; } }
+    bottom: 20px;
+    display: none; }
+
+  .linksRemove {
+    display: block;
+    z-index: 3; } }
 .menuTransition {
   -webkit-transform: translate3d(0, 80vh, 0);
   transform: translate3d(0, 80vh, 0); }

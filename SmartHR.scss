@@ -350,7 +350,7 @@ h2 {
 
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 900px) {
 
 .pageTitle {
 	width: 450px;
@@ -517,10 +517,6 @@ Navigation
 		display: none;
 	}
 
-	.linksRemove {
-		display: block;
-	}
-
 	.linkOne, .linkTwo, .linkThree {
 		padding: 50px;
 		margin: 0;
@@ -537,6 +533,11 @@ Navigation
 	right: 50px;
 	bottom: 50px;
 	z-index: 2;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	&:hover {
+		opacity: .7;
+	}
 }
 
 @media only screen and (max-width: 900px) {
@@ -544,7 +545,13 @@ Navigation
 	width: 50px;
 	right: 20px;
 	bottom: 20px;
+	display: none;
 }
+	.linksRemove {
+		display: block;
+		z-index: 3;
+	}
+
 }
 
 .menuTransition {

@@ -36,9 +36,9 @@ window.onload=function(){
 		menuBar.classList.add('closeTransition');
 		navigationClose.classList.add('menuTransition');
 		body.style.overflow = 'hidden';
-		returnToTop.style.display = "none";
 		sandwichIcon.style.display = "none";
 		links.classList.add('linksRemove');
+		returnToTop.classList.add('linksRemove');
 		flipper = 1;
 	}, false);
 
@@ -51,7 +51,7 @@ window.onload=function(){
 		navigationClose.classList.remove('menuTransition');
 		body.style.overflow = 'visible';
 		body.style.overflowX = 'hidden';
-		returnToTop.style.display = "block";
+		returnToTop.classList.remove('linksRemove');
 		sandwichIcon.style.display = "block";
 		links.classList.remove('linksRemove');
 		flipper = 0;
@@ -59,6 +59,7 @@ window.onload=function(){
 
 	returnToTop.addEventListener("click", function(){
 		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+		closeNav();
 	}, false);
 
 	linkOne.addEventListener("click", function(){
