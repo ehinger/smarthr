@@ -86,15 +86,14 @@ window.onload=function(){
 		touchstartY = event.changedTouches[0].screenY;
 	}, false);
 
-window.onscroll = function() {introWrapperScrollCheck()};
+// window.onscroll = function() {introWrapperScrollCheck()};
 
-function introWrapperScrollCheck() {
-    if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750 && flipper == 0) {
-			introWrapper.style.zIndex = '-10';
-    } else {
-			introWrapper.style.zIndex = '1';
-    }
+// function introWrapperScrollCheck() {
+//     if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750 && flipper == 0) {
+// 			introWrapper.style.zIndex = '-10';
+//     } else {
+// 			introWrapper.style.zIndex = '1';
+//     }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-}

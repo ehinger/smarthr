@@ -33,7 +33,7 @@ Text
 
 .linkFour {
   text-decoration: underline;
-  color: #1b1464; }
+  color: #ffffff; }
 
 .introh {
   position: relative;
@@ -50,31 +50,6 @@ Text
   margin: 200px 0;
   position: fixed; }
 
-@media only screen and (max-width: 900px) {
-  .introp {
-    position: relative;
-    text-align: left;
-    font-kerning: normal;
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 0 25px 0;
-    color: #1b1464;
-    font-family: 'Cairo', sans-serif; }
-
-  .introh {
-    position: relative;
-    font-kerning: normal;
-    font-size: 2rem;
-    text-align: left;
-    line-height: 1.4;
-    color: #1b1464;
-    margin: 0 25px;
-    height: 110px;
-    font-family: 'Cairo', sans-serif; }
-
-  .introWrapper {
-    margin: 100px 0;
-    position: fixed; } }
 .background {
   position: relative;
   width: 100vw;
@@ -87,7 +62,7 @@ Text
     position: relative;
     text-align: left;
     font-kerning: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.8;
     padding: 50px 200px 150px;
     min-width: 300px;
@@ -98,24 +73,31 @@ Text
     position: relative;
     font-kerning: normal;
     text-align: left;
-    font-size: 5rem;
+    font-size: 4rem;
+    height: auto;
+    line-height: 1.2;
     margin: 0;
     color: #ffffff;
     padding: 50px 200px 0;
     min-width: 300px;
     font-family: 'Cairo', sans-serif; }
-  .background .aboutScroll {
-    height: 100px; }
   .background .WWDScroll {
-    height: auto; }
+    margin-top: 0; }
 
 .midSVG {
-  margin: 0;
+  margin: -200px 0;
   position: absolute;
   width: 75vw;
   height: auto;
   z-index: -1; }
 
+@media only screen and (max-width: 1750px) {
+  .midSVG {
+    margin: -100px 0;
+    position: absolute;
+    width: 75vw;
+    height: auto;
+    z-index: -1; } }
 .bottomSVG {
   margin: 0;
   position: absolute;
@@ -140,6 +122,7 @@ Text
     position: relative;
     color: #ffffff;
     text-align: left;
+    line-height: 1.2;
     padding: 50px 50px 0;
     font-family: 'Cairo', sans-serif; }
   .WWD .wwdul {
@@ -155,68 +138,9 @@ Text
     float: left;
     height: 600px;
     width: auto; }
+  .WWD .marginBottomTwo {
+    margin-bottom: 250px; }
 
-@media only screen and (max-width: 1400px) {
-  .WWD {
-    margin: 0 auto 50px;
-    height: auto; }
-    .WWD .wwdp {
-      position: relative;
-      font-kerning: normal;
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #ffffff;
-      padding: 0 200px 0;
-      font-family: 'Cairo', sans-serif; }
-    .WWD .wwdh {
-      font-size: 2rem;
-      position: relative;
-      color: #ffffff;
-      padding: 50px 200px 0; }
-    .WWD .wwdul {
-      font-size: 1rem;
-      position: relative;
-      line-height: 1.8;
-      margin: 0;
-      color: #ffffff;
-      padding: 50px 200px;
-      font-family: 'Cairo', sans-serif; }
-    .WWD img {
-      margin: 0 25vw;
-      height: auto;
-      width: 50vw;
-      float: none; } }
-@media only screen and (max-width: 900px) {
-  .WWD {
-    margin: 0 auto 50px;
-    height: auto; }
-    .WWD .wwdp {
-      position: relative;
-      font-kerning: normal;
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #ffffff;
-      padding: 0 25px 0;
-      font-family: 'Cairo', sans-serif; }
-    .WWD .wwdh {
-      font-size: 2rem;
-      line-height: 1.4;
-      position: relative;
-      color: #ffffff;
-      padding: 50px 25px 0; }
-    .WWD .wwdul {
-      font-size: 1rem;
-      position: relative;
-      line-height: 1.8;
-      margin: 0;
-      color: #ffffff;
-      padding: 50px 25px;
-      font-family: 'Cairo', sans-serif; }
-    .WWD img {
-      margin: 0 auto -50px;
-      height: auto;
-      width: 100vw;
-      float: none; } }
 .contactWrapper {
   margin: -65px 0;
   background: #ffffff;
@@ -264,53 +188,6 @@ h2 {
   position: absolute;
   font-family: 'Cairo', sans-serif; }
 
-@media only screen and (max-width: 900px) {
-  .background {
-    position: relative;
-    width: 100vw;
-    margin: 80vh 0 0;
-    padding: 0 0 50px 0;
-    height: auto;
-    background: #1b1464;
-    z-index: 1; }
-    .background .aboutp {
-      font-size: 1rem;
-      padding: 0 25px 150px; }
-    .background .abouth {
-      font-size: 2rem;
-      padding: 50px 25px 0;
-      line-height: 1.4; }
-
-  .midSVG {
-    width: 125vw; }
-
-  .contactWrapper {
-    overflow-x: hidden; }
-    .contactWrapper .contactp {
-      font-size: 1.5rem;
-      padding: 0 25px 50px; }
-    .contactWrapper .contacth {
-      font-size: 2rem;
-      padding: 50px 25px 0; } }
-@media only screen and (max-width: 900px) {
-  .pageTitle {
-    width: 450px;
-    height: auto;
-    position: fixed;
-    margin: 25px 25px 0;
-    z-index: -1; }
-
-  h1 {
-    font-size: 2rem;
-    margin: 0;
-    color: #1b1464;
-    font-family: 'Cairo', sans-serif; }
-
-  h2 {
-    font-size: 1rem;
-    margin: -20px 50px;
-    color: #1b1464;
-    font-family: 'Cairo', sans-serif; } }
 /***************************************************
 Navigation
 ****************************************************/
@@ -351,25 +228,6 @@ Navigation
   top: 0;
   z-index: 3; }
 
-@media only screen and (max-width: 900px) {
-  .menuBar {
-    width: 100vw;
-    margin: 0; }
-
-  .sandwichIcon {
-    top: 35px;
-    width: 50px;
-    height: 37px; }
-
-  .barOne {
-    height: 6px; }
-
-  .barTwo {
-    height: 6px;
-    margin: 6px 0; }
-
-  .barThree {
-    height: 6px; } }
 .links {
   list-style-type: none;
   color: #1b1464;
@@ -378,7 +236,7 @@ Navigation
   padding: 0;
   float: right;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   display: block; }
   .links a {
     color: #1b1464;
@@ -395,38 +253,17 @@ Navigation
   font-kerning: normal;
   font-family: 'Cairo', sans-serif; }
 
-@media only screen and (max-width: 1650px) {
-  .links {
-    margin: 100px 100px; } }
 @media only screen and (max-width: 1400px) {
   .links {
-    margin: 50px 50px 200px; }
+    margin: 110px 0;
+    right: 100px; }
 
   .linksRemove {
     display: block; } }
 @media only screen and (max-width: 1100px) {
   .linkOne, .linkTwo, .linkThree {
-    margin: 0 30px; } }
-@media only screen and (max-width: 900px) {
-  .links {
-    list-style-type: none;
-    margin: -207px auto 0;
-    text-align: center;
-    padding: 0;
-    right: auto;
-    float: none;
-    position: fixed;
-    width: 100vw;
-    top: 50%;
-    z-index: 3;
-    display: none; }
-
-  .linkOne, .linkTwo, .linkThree {
-    padding: 50px;
-    margin: 0;
-    font-size: 2rem;
-    float: none;
-    font-family: 'Cairo', sans-serif; } }
+    margin: 0 30px;
+    font-size: 1.5rem; } }
 .returnToTop {
   width: 100px;
   height: auto;
@@ -440,16 +277,6 @@ Navigation
   .returnToTop:hover {
     opacity: .7; }
 
-@media only screen and (max-width: 900px) {
-  .returnToTop {
-    width: 50px;
-    right: 20px;
-    bottom: 20px;
-    display: none; }
-
-  .linksRemove {
-    display: block;
-    z-index: 3; } }
 .menuTransition {
   -webkit-transform: translate3d(0, 80vh, 0);
   transform: translate3d(0, 80vh, 0); }
@@ -487,19 +314,345 @@ Navigation
 Graphic Imagery
 ****************************************************/
 .SVGImage {
-  margin: 592px 0 0;
-  z-index: 2;
+  margin: 120px 0 0;
+  z-index: 1;
   position: relative;
   height: auto;
-  width: 100vw; }
+  width: 100vw;
+  pointer-events: none; }
+  .SVGImage img {
+    pointer-events: none; }
 
+@media only screen and (max-width: 1400px) {
+  .SVGImage {
+    margin: 180px 0 0; }
+
+  .returnToTop {
+    width: 50px; }
+
+  .introp {
+    position: relative;
+    text-align: left;
+    font-kerning: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 100px 0;
+    min-width: 300px;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif; }
+
+  .linkFour {
+    text-decoration: underline;
+    color: #ffffff; }
+
+  .introh {
+    position: relative;
+    font-kerning: normal;
+    font-size: 4rem;
+    text-align: left;
+    line-height: 1.2;
+    color: #1b1464;
+    margin: 50px 100px 0;
+    height: 200px;
+    min-width: 300px;
+    font-family: 'Cairo', sans-serif; }
+
+  .introWrapper {
+    margin: 200px 0;
+    position: fixed; }
+
+  .WWD {
+    margin: 0 auto 150px;
+    height: auto; }
+    .WWD .wwdp {
+      position: relative;
+      font-kerning: normal;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #ffffff;
+      padding: 0 100px 0;
+      font-family: 'Cairo', sans-serif; }
+    .WWD .wwdh {
+      font-size: 2rem;
+      position: relative;
+      color: #ffffff;
+      padding: 50px 100px 0; }
+    .WWD .wwdul {
+      font-size: 1rem;
+      position: relative;
+      line-height: 1.8;
+      margin: 0;
+      color: #ffffff;
+      padding: 50px 100px;
+      font-family: 'Cairo', sans-serif; }
+    .WWD img {
+      margin: 0 100px;
+      height: auto;
+      width: 30vw;
+      float: left; }
+    .WWD .marginBottom {
+      margin-bottom: 0px; }
+    .WWD .marginBottomTwo {
+      margin-bottom: 200px; }
+
+  .background {
+    position: relative;
+    width: 100vw;
+    margin: -50 0 0;
+    padding: 0 0 50px 0;
+    height: auto;
+    background: #1b1464;
+    z-index: 1; }
+    .background .aboutp {
+      font-size: 1rem;
+      padding: 50px 100px 150px; }
+    .background .abouth {
+      font-size: 4rem;
+      padding: 50px 100px 0;
+      line-height: 1.2; }
+    .background .aboutScroll {
+      height: 200px; }
+
+  .midSVG {
+    width: 75vw;
+    margin: -100px 0; }
+
+  .contactWrapper {
+    overflow-x: hidden; }
+    .contactWrapper .contactp {
+      font-size: 1.5rem;
+      padding: 0 100px 50px; }
+    .contactWrapper .contacth {
+      font-size: 4rem;
+      padding: 50px 100px 0; }
+
+  .pageTitle {
+    width: 450px;
+    height: auto;
+    position: fixed;
+    margin: 100px 100px 0;
+    z-index: -1; }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900; }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: -30px 70px;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif; } }
+@media only screen and (max-width: 1250px) {
+  .WWD {
+    margin: 0 auto 150px;
+    height: auto; }
+    .WWD img {
+      margin: 0 100px;
+      height: auto;
+      width: 30vw;
+      float: left; }
+    .WWD .marginBottom {
+      margin-bottom: 75px; }
+    .WWD .marginBottomTwo {
+      margin-bottom: 320px; } }
+@media only screen and (max-width: 1000px) {
+  .WWD {
+    margin: 0 auto 150px;
+    height: auto; }
+    .WWD img {
+      margin: 0 100px;
+      height: auto;
+      width: 30vw;
+      float: left; }
+    .WWD .marginBottom {
+      margin-bottom: 450px; }
+    .WWD .marginBottomTwo {
+      margin-bottom: 450px; } }
 @media only screen and (max-width: 900px) {
   .SVGImage {
-    margin: 0;
-    top: 85vh;
+    margin: 120px 0 0;
     z-index: 2;
     position: relative;
     height: auto;
-    width: 100vw; } }
+    width: 100vw; }
+
+  .introp {
+    position: relative;
+    text-align: left;
+    font-kerning: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 25px 0;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif; }
+
+  .introh {
+    position: relative;
+    font-kerning: normal;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.4;
+    color: #1b1464;
+    margin: 0 25px;
+    height: 110px;
+    font-family: 'Cairo', sans-serif; }
+
+  .introWrapper {
+    margin: 100px 0;
+    position: fixed; }
+
+  .WWD {
+    margin: 100px auto 50px;
+    height: auto; }
+    .WWD .wwdp {
+      position: relative;
+      font-kerning: normal;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #ffffff;
+      padding: 0 25px 0;
+      font-family: 'Cairo', sans-serif; }
+    .WWD .wwdh {
+      font-size: 2rem;
+      line-height: 1.4;
+      position: relative;
+      color: #ffffff;
+      padding: 50px 25px 0; }
+    .WWD .wwdul {
+      font-size: 1rem;
+      position: relative;
+      line-height: 1.8;
+      margin: 0;
+      color: #ffffff;
+      padding: 50px 25px;
+      font-family: 'Cairo', sans-serif; }
+    .WWD img {
+      margin: 0 25vw;
+      height: auto;
+      width: 50vw;
+      float: none; }
+    .WWD .marginBottom {
+      margin-bottom: -50px; }
+    .WWD .marginBottomTwo {
+      margin-bottom: -50px; }
+
+  .returnToTop {
+    width: 100px; }
+
+  .background {
+    position: relative;
+    width: 100vw;
+    margin: -50 0 0;
+    padding: 0 0 50px 0;
+    height: auto;
+    background: #1b1464;
+    z-index: 1; }
+    .background .aboutp {
+      font-size: 1rem;
+      padding: 0 25px 150px; }
+    .background .abouth {
+      font-size: 2rem;
+      padding: 50px 25px 0;
+      line-height: 1.4; }
+    .background .aboutScroll {
+      height: 100px; }
+
+  .midSVG {
+    width: 75vw;
+    margin: -50px 0; }
+
+  .contactWrapper {
+    overflow-x: hidden; }
+    .contactWrapper .contactp {
+      font-size: 1.5rem;
+      padding: 0 25px 50px; }
+    .contactWrapper .contacth {
+      font-size: 2rem;
+      padding: 50px 25px 0; }
+
+  .pageTitle {
+    width: 450px;
+    height: auto;
+    position: fixed;
+    margin: 25px 25px 0;
+    z-index: -1; }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif; }
+
+  h2 {
+    font-size: 1rem;
+    margin: -20px 50px;
+    color: #1b1464;
+    font-family: 'Cairo', sans-serif; }
+
+  .menuBar {
+    width: 100vw;
+    margin: 0; }
+
+  .sandwichIcon {
+    top: 35px;
+    width: 50px;
+    height: 37px; }
+
+  .barOne {
+    height: 6px; }
+
+  .barTwo {
+    height: 6px;
+    margin: 6px 0; }
+
+  .barThree {
+    height: 6px; }
+
+  .links {
+    list-style-type: none;
+    margin: -207px auto 0;
+    text-align: center;
+    padding: 0;
+    right: auto;
+    float: none;
+    position: fixed;
+    width: 100vw;
+    top: 50%;
+    z-index: 3;
+    display: none; }
+
+  .linkOne, .linkTwo, .linkThree {
+    padding: 50px;
+    margin: 0;
+    font-size: 2rem;
+    float: none;
+    font-family: 'Cairo', sans-serif; }
+
+  .returnToTop {
+    width: 50px;
+    right: 20px;
+    bottom: 20px;
+    display: none; }
+
+  .linksRemove {
+    display: block;
+    z-index: 3; } }
+@media only screen and (max-width: 600px) {
+  .midSVG {
+    width: 125vw;
+    margin: 0; }
+
+  .WWD img {
+    margin: 0 auto;
+    height: auto;
+    width: 100vw;
+    float: none; }
+  .WWD .marginBottom {
+    margin-bottom: -50px; }
+  .WWD .marginBottomTwo {
+    margin-bottom: -50px; } }
 
 /*# sourceMappingURL=SmartHR.css.map */
